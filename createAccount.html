@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .font{
+            font-family: 'Shadows Into Light', cursive; font-size: 14px;
+        }
+        
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moa Photography</title>
+</head>
+<body>
+<header>
+    <nav>
+        <ul class="ul-logo">
+            <li><a href="index.html"></a>Moa Photography Logo</li>
+        </ul>
+    </nav>
+    <nav>
+        <ul class="ul-hyperLink">
+            <li><a class="hyperLink" href="index.html">Home</a></li>
+            <li><a class="hyperLink" href="contact.html">Contact</a></li>
+            <li><a class="hyperLink" href="login.html">Login</a></li>
+        </ul>
+    </nav>
+</header>
+<form action="insert.php" method="POST">
+<section class="section-login">
+     <div class="div-Login">
+        Please enter your name
+        <div class="form-group">
+        <input type="text" name="name" id="name" placeholder="Full name" required>
+        <div>
+         Please enter username or email
+         <div class="form-group">
+           <label for="username"></label>
+           <input type="email" class="form-control" name="email" id="email" aria-describedby="emailHelpId" placeholder="Email" required>
+           <small id="emailHelpId" class="form-text text-muted"></small>
+         </div>
+         Please enter password
+         <div class="form-group">
+           <label for="password"></label>
+           <input type="password" class="form-control" name="password" id="password" placeholder="Password" required>
+         </div>
+         Please repeat your password
+         <div class="form-group">
+           <label for="repeat password"></label>
+           <input type="password" class="form-control" name="repeatPassword" id="repeatPassword" placeholder="Repeat password" required>
+         </div>
+         <input type="submit" value="Submit">Create Account</input>
+     </div>
+</section>
+</form>
+<!--<script src="../moa_photography/loginAndCreateAccount.js"></script> -->
+<section>
+</section>
+<footer>
+    <nav>
+        <ul class="ul-footerSocialMedia">
+            <li><a href="http://facebook.com"><img class="social social-Fa" src="../moa_photography/icons/004-facebook.png" alt="Facebook"></a></li>
+            <li><a href="https://www.instagram.com/moawessel/"><img class="social social-Inst" src="../moa_photography/icons/002-instagram.png" alt="Instagram"></a></li>
+            <li><a href="https://youtube.com"><img class="social social-You" src="../moa_photography/icons/005-youtube.png" alt="youtube"></a></li>
+            <li><a href="https://twitter.com"><img class="social social-Twit" src="../moa_photography/icons/003-twitter.png" alt="twitter"></a></li>
+        </ul>
+    </nav>
+    <div>Moa Photography &copy;</div>
+</footer>
+</body>
+</html>
